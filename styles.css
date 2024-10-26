@@ -1,12 +1,15 @@
-body {
-    font-family: Arial, sans-serif;
+
+.social-icons {
+    margin-top: 20px; /* Space above the icons */
 }
 
-header {
-    background-color: #007bff;
-    color: white;
+.social-icons i {
+    font-size: 24px; /* Size of the icons */
+    margin-right: 15px; /* Space between icons */
+    color: #343a40; /* Icon color */
+    transition: color 0.3s; /* Smooth color transition on hover */
 }
 
-h2 {
-    color: #343a40;
+.social-icons i:hover {
+    color: #007bff; /* Change color on hover */
 }
